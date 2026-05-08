@@ -1,0 +1,17 @@
+# 1. Các file chứa mật khẩu, thông tin nhạy cảm 
+.env
+.env.local
+.env.*
+
+# 2. Các file rác do hệ thống Python tự sinh ra khi chạy code
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 3. Thư mục môi trường ảo của Python
+venv/
+env/
+.venv/
+
+# 4. Các file cấu hình riêng của phần mềm VS Code
+.vscode/
